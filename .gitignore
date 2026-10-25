@@ -14,3 +14,5 @@ bindings/python/**/__pycache__/
 bindings/python/.pytest_cache/
 bindings/node/*.node
 bindings/node/node_modules/
+config.bat
+node_modules
