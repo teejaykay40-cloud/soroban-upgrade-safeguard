@@ -14,8 +14,8 @@
     "binaryName": "soroban_upgrade_safeguard"
   },
   "scripts": {
-    "build": "napi build --release",
-    "build:debug": "napi build",
+    "build": "node init && napi build --release",
+    "build:debug": "node init && napi build",
     "test": "node --test __test__"
   },
   "devDependencies": {
